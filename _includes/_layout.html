@@ -82,5 +82,16 @@
   {% include _third-party/mathjax.html %}
   {% include _third-party/scroll-cookie.html %}
   {% include _third-party/exturl.html %}
+  
+  <!-- Global site tag (gtag.js) - Google Analytics 임시 구글분석용 코드 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142979375-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142979375-1');
+  </script>
+
 </body>
 </html>
